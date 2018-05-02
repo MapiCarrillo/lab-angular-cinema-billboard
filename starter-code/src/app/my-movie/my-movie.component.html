@@ -1,3 +1,14 @@
-<p>
-  my-movie works!
-</p>
+<h1>{{movie.title}}</h1>
+<div class= "container">
+  <div class="movie-img">
+  <img [src]="movie.poster" alt ="{{movie.title}}"/>
+</div>
+<div class="movie-desc">
+  <p>{{movie.genres}}</p>
+  <p>{{movie.year}}</p>
+  <p>{{movie.director}}</p>
+  <p>{{movie.actors}}</p>
+  <p>{{movie.synopsis}}</p>
+  <button><a [routerLink]="['/home']"> Home </a> </button>
+</div>
+</div>

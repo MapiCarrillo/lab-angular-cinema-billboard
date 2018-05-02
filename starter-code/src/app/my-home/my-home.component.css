@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    justify-content: space-between
+    
+}
+
+img{
+    width: 90%;
+    height: 400px;
+}

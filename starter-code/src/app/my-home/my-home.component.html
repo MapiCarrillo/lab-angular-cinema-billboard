@@ -1,3 +1,8 @@
-<p>
-  my-home works!
-</p>
+<h1>Ironhack Cinema</h1>
+<div class="container">
+<div *ngFor ="let m of moviesArray">
+  <h2><a [routerLink]="['/movie',m.id]">{{m.title}}</a></h2>
+  <h3>ROOM: {{m.room}}</h3>
+  <img [src]="m.poster" alt="{{m.title}}"/>
+</div>
+</div>

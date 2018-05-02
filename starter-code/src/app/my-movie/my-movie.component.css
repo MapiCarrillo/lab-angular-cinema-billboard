@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: space-between
+    
+}
+
+img{
+    width: 90%;
+    height: 700px;
+}
+.movie-desc button{
+    padding: 10px 20px;
+    background-color: greenyellow;
+    border-radius: 15%;
+}

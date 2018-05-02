@@ -54,7 +54,7 @@ export class MovieSrv {
         "Sterling Hayden"
       ],
       hours: ["1", "2"],
-      room: 6
+      room: 1
     },
     {
       id: 3,
@@ -74,7 +74,7 @@ export class MovieSrv {
         "Talia Shire"
       ],
       hours: ["1", "2"],
-      room: 9
+      room: 3
     },
     {
       id: 4,
