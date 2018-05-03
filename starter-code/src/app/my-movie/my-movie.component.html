@@ -4,10 +4,19 @@
   <img [src]="movie.poster" alt ="{{movie.title}}"/>
 </div>
 <div class="movie-desc">
-  <p>{{movie.genres}}</p>
-  <p>{{movie.year}}</p>
-  <p>{{movie.director}}</p>
-  <p>{{movie.actors}}</p>
+    <p class ="tit">Genres:</p>
+  <ul> 
+    <li *ngFor ="let g of movie.genres">{{g}}</li>
+
+  </ul>
+  <p><span class ="tit">Year:</span> {{movie.year}}</p>
+  <p>Director: {{movie.director}}</p>
+  <p class ="tit">Actors:</p>
+  <ul> 
+    <li *ngFor ="let a of movie.actors">{{a}}</li>
+
+  </ul>
+  <p class ="tit">Synopsis:</p>
   <p>{{movie.synopsis}}</p>
   <button><a [routerLink]="['/home']"> Home </a> </button>
 </div>
